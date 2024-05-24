@@ -1,0 +1,106 @@
+/* BODY */
+.fontPrimary {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  opacity: 0.8;
+  color: #121212;
+}
+
+.fontSecondary {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  opacity: 0.8;
+  color: #121212;
+}
+
+.fontNavIcons {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  opacity: 0.88;
+}
+
+.nameStrong {
+  color: white;
+}
+
+.navbar {
+  /* backdrop-filter: blur(10px);*/  
+  /*background-color: rgb(255, 255, 255);*/
+  width: 100%;
+  /*border-radius: 50px;*/
+}
+
+.scrolled-down {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  
+}
+
+i {
+  color: #061e45;
+}
+
+.nav-item:hover {
+  transform: scale(1.2);
+  text-decoration: underline;
+}
+
+/* MOBILE NAV TOGGLE */
+.hamburger-toggle {
+  width: 60px;
+  height: 60px;
+  border: none;
+  display: grid;
+  place-items: center;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.hamburger {
+  position: relative;
+  width: 30px;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  display: block;
+  border-radius: 2px;
+  height: 1px;
+  background: #061e45;
+  transition: 0.3s;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+.hamburger::before {
+  top: -8px;
+}
+
+.hamburger::after {
+  top: 8px;
+}
+
+.hamburger-icon,
+.hamburger-icon::before,
+.hamburger-icon::after {
+  transition: 0.2s ease-in-out;
+}
+
+.hamburger-icon.is-open {
+  transform: translateX(-50px);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.hamburger-icon.is-open::before {
+  transform: rotate(-45deg) translate(30px, 40px);
+}
+
+.hamburger-icon.is-open::after {
+  transform: rotate(45deg) translate(30px, -42px);
+}

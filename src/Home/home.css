@@ -1,0 +1,191 @@
+/* MAIN BODY */
+.fontPrimary {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  opacity: 0.8;
+  color: #faf9f6;
+}
+
+.fontSecondary {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  opacity: 0.8;
+  color: #121212;
+}
+
+.fontNavigation {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  opacity: 0.8;
+  color: #121212;
+}
+
+@media (min-width: 768px) {
+  .fontNavigation {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    opacity: 0.8;
+    color: #121212;
+  }
+}
+
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  height: 100%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Hero Section */
+.avatar {
+  background-image: url(../images/transparent_background.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  height: 450px;
+  width: 450px;
+}
+
+.heading {
+  text-shadow: -5px 0 #121212;
+}
+
+.navIcons { 
+  /* border: 1px solid #faf9f6; */
+  border-radius: 50%;
+}
+
+i.homeLink {
+  color: #faf9f6;
+}
+
+i.homeLink:hover {
+  transform: scale(1.2);
+  color: #121212;
+}
+
+i.arrowDown {
+  color: #121212;
+}
+
+/* About Section */
+.aboutTiles {
+  background-color: #faf9f6;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: -5px 5px rgba(18, 18, 18, 0.2), -5px 5px rgba(18, 18, 18, 0.2);
+}
+
+.aboutTiles:hover {
+  transform: scale(1.05);
+  box-shadow: -9px 9px rgba(18, 18, 18, 0.2), -9px 9px rgba(18, 18, 18, 0.2);
+}
+
+.aboutIconsJs {
+  color: #121212;
+  position: absolute;
+  top: -25px;
+  /* border: 1px solid rgba(250, 249, 246, 0.88); */
+  border-radius: 45px 45px 0px 0px;
+  width: 150px;
+  background-color: #faf9f6;
+}
+
+.aboutIconsReact {
+  color: #121212;
+  position: absolute;
+  top: -25px;
+  /* border: 1px solid rgba(250, 249, 246, 0.88); */
+  border-radius: 45px 45px 0px 0px;
+  width: 150px;
+  background-color: #faf9f6;
+}
+
+.aboutIconsGithub {
+  color: #121212;
+  position: absolute;
+  top: -25px;
+  /* border: 1px solid rgba(250, 249, 246, 0.88); */
+  border-radius: 45px 45px 0px 0px;
+  width: 150px;
+  background-color: #faf9f6;
+}
+
+.tileInfo {
+  border-top: 1px solid #121212;
+  border-bottom: 1px solid #121212;
+}
+
+.arrow {
+  text-align: center;
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.aboutHeroSection {
+  background-color: #faf9f6;
+  box-shadow: -5px 5px #121212, -5px 5px #121212;
+}
+
+/* Project Section */
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  max-width: 50%;
+  /* padding: 0 4px; */
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.viewProjects {
+  border: 1px solid #121212;
+  text-decoration: none;
+  color: #121212;
+}
+
+.viewProjects:hover {
+  background-color: #121212;
+  color: #faf9f6; 
+}
