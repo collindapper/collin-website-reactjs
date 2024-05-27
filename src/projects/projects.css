@@ -1,0 +1,205 @@
+/* MAIN BODY */
+.fontPrimary {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  opacity: 0.88;
+  color: #F5F5F5;
+}
+
+.fontSecondary {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  opacity: 0.88;
+  color: #3D4849;
+}
+
+@media (min-width: 768px) {
+  .fontNavigation {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    opacity: 0.88;
+  }
+}
+
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  height: 100%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* PROJECTS PAGE */
+.heading {
+  text-shadow: -5px 0 #121212;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  opacity: 0.88;
+  color: #faf9f6;
+}
+
+.project-image {
+  padding-top: calc(1 / 1 * 100%); 
+  background-size: cover;
+  background-position: center;
+}
+
+.description-short {
+  width: 100%;
+  line-height: 1.5em;
+  height: 13em;
+  /* overflow: hidden; */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.projectLinks {
+  text-decoration: none;
+}
+
+
+ /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+ .flip-card {
+  background-color: transparent;
+  height: 300px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin-bottom: 40px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* Style the front side (fallback if image is missing) */
+.websiteImg {
+  background-image: url(../images/website.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #faf9f6;
+}
+
+.airbnbImg {
+  background-image: url(../images/airbnb.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #faf9f6;
+}
+
+.twitterImg {
+  background-image: url(../images/Twitter.png);
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #faf9f6;
+}
+
+.xchangeImg {
+  background-image: url(../images/currency\ converter.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #faf9f6;
+}
+
+.movieFinderImg {
+  background-image: url(../images/movie\ finder.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #faf9f6;
+}
+
+.mathGameImg {
+  background-image: url(../images/math\ game.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #faf9f6;
+}
+
+.toDoListImg {
+  background-image: url(../images/api\ to\ do\ list.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #faf9f6;
+}
+
+.shoppingCartImg {
+  background-image: url(../images/shopping\ cart.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #faf9f6;
+}
+
+.blackJackImg {
+  background-image: url(../images/blackjack.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #faf9f6;
+}
+
+.rockPaperScissorsImg {
+  background-image: url(../images/rock\ paper\ scissors.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #faf9f6;
+}
+
+.airbnbBookingImg {
+  background-image: url(../images/airbnb\ news\ webpage.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #faf9f6;
+}
+
+.airbnbNewsImg {
+  background-image: url(../images/airbnb\ booking\ webpage.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #faf9f6;
+}
+
+.newsweekImg {
+  background-image: url(../images/Newsweek\ clone.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #faf9f6;
+}
+
+.appleImg {
+  background-image: url(../images/Apple\ Clone.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #faf9f6;
+}
+
+/* Style the back side */
+a.viewRepo {
+  color: #121212;
+  width: 100%;
+  border: 1px solid #121212;
+}
+
+a.viewRepo:hover {
+  color: #faf9f6;
+  background-color: #121212;
+}

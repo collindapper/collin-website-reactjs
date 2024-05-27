@@ -22,11 +22,12 @@ class Home extends React.Component {
 
             <Fade right>
             <div className="col-12 col-md-6 my-auto py-4 ms-md-5 introCard">
-              <p className="display-1 text-center heading fontPrimary"><strong>Collin Dapper</strong></p>
-              <p className="display-6 text-center subHeading fontSecondary mb-auto">Full-Stack Software Developer</p>
+              <p className="display-1 text-center heading fontPrimary">Collin Dapper</p>
+              <p className="display-6 text-center subHeading fontSecondary mb-auto">Computer Science Student</p>
+              <div className="divider mt-4 mb-2 w-50 mx-auto"></div>
               <div className="d-flex justify-content-center mt-2">
-                <a className="nav-link text-black display-6 text-center navIcons mx-3 px-3" href="https://www.linkedin.com/in/collin-dapper-a1b59a152/" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin homeLink"></i></a>
-                <a className="nav-link text-black display-6 text-center navIcons mx-3 px-3" href="https://github.com/collindapper" target="_blank" rel="noreferrer"><i className="fa-brands fa-github homeLink"></i></a>
+                <a className="nav-link text-black text-center navIcons mx-3 px-3" href="https://www.linkedin.com/in/collin-dapper-a1b59a152/" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin homeLink display-6"></i></a>
+                <a className="nav-link text-black  text-center navIcons mx-3 px-3" href="https://github.com/collindapper" target="_blank" rel="noreferrer"><i className="fa-brands fa-github homeLink display-6"></i></a>
               </div>
             </div>
             </Fade>
@@ -37,25 +38,38 @@ class Home extends React.Component {
         {/* About Me Section */}
  
         <div className="d-flex row justify-content-around mx-3 aboutTilesContainer">
-          <div className="d-flex col-12 col-lg-4 aboutTiles justify-content-center mt-3 mb-5">
-            <i className="fab fa-square-js aboutIconsJs display-4 d-flex justify-content-center"></i>
-            <h4 className="my-5 py-5 fontSecondary tileInfo text-center">I am an adaptive, creative, and certified Junior Software Developer with proficiency in Back-end programming languages, JavaScript and Ruby.</h4>
+          <div className="d-flex arrow bounce mt-5 mb-3">
+            <h4 className="text-center fontPrimary me-2">About Me</h4>
+            <i className="fa-solid fa-chevron-down mt-1 arrowDown"></i>
           </div>
-          <div className="d-flex col-12 col-lg-3 aboutTiles border justify-content-center mt-3 mb-5">
+
+          <div className='text-center mb-5'>
+            <h1 className='fontSecondary text-center'>Computer Science student with a passion for scripting and programming, knowledgeable IT professional and certified Full-Stack Web developer, seeking experience in Software Development.</h1>
+            <div className="divider mt-5 w-75 mx-auto"></div>
+          </div>
+          
+
+          <div className="d-flex col-12 col-lg-4 aboutTiles justify-content-center mt-3 mb-5">
+            <i className="fab fa-js-square aboutIconsJs display-4 d-flex justify-content-center"></i>
+            <h4 className="my-5 py-5 fontSecondary tileInfo text-center">Adaptive, creative, and certified Junior Software Developer and trained IT professional with proficiency in Back-end programming languages, JavaScript and Ruby.</h4>
+          </div>
+          <div className="d-flex col-12 col-lg-3 aboutTiles justify-content-center mt-3 mb-5">
             <i className="fa-brands fa-react aboutIconsReact display-4 d-flex justify-content-center"></i>
             <h4 className="my-5 py-5 fontSecondary tileInfo text-center">knowledgeable in front-end programming languages and frameworks such as: HTML, CSS, and ReactJS.</h4>
           </div>
-          <div className="d-flex col-12 col-lg-4 aboutTiles border justify-content-center mt-3 mb-5">
+          <div className="d-flex col-12 col-lg-4 aboutTiles justify-content-center mt-3 mb-5">
             <i className="fa-brands fa-square-github aboutIconsGithub display-4 d-flex justify-content-center"></i>
             <h4 className="my-5 py-5 fontSecondary tileInfo text-center">Familiar with concepts of computing and database use, as well as, conducting user research and collaborating with developers to build dynamic websites.</h4>
           </div>
+
+          <div className="divider mt-3 w-75 mx-auto"></div>
         </div>
 
         {/* Certifications Section */}
         <div className="d-flex row container mx-auto">
             <div className="d-flex arrow bounce mt-5 mb-3">
               <h4 className="text-center fontPrimary me-2">Certifications</h4>
-              <i class="fa-solid fa-chevron-down mt-1 arrowDown"></i>
+              <i className="fa-solid fa-chevron-down mt-1 arrowDown"></i>
             </div>
 
             <div className="column">
@@ -78,7 +92,7 @@ class Home extends React.Component {
             </div>
 
             <div className="column">
-              <img src={require('../images/Airbnb.jpg')} alt='Airbnb' />
+              <img src={require('../images/airbnb.jpg')} alt='Airbnb' />
               <img src={require('../images/movie finder.jpg')} alt='Movie Finder' />
             </div>
             
