@@ -6,10 +6,10 @@ import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 import Navbar from './Navbar/navbar';
-import Home from './Home/home';
 import About from './about/about';
 import Projects from './projects/projects';
 import Skills from './skills/skills';
+import Home from './Home/home';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

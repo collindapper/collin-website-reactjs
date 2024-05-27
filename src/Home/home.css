@@ -10,14 +10,14 @@
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
   opacity: 0.8;
-  color: #3D4849;
+  color: #06191D;
 }
 
 .fontNavigation {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   opacity: 0.8;
-  color: #3D4849;
+  color: #06191D;
 }
 
 @media (min-width: 768px) {
@@ -50,7 +50,7 @@ body {
 }
 
 .divider {
-  border-top: 1px solid #3D4849;
+  border-top: 1px solid #06191D;
 }
 
 /* Hero Section */
@@ -64,7 +64,7 @@ body {
 }
 
 .heading {
-  text-shadow: -5px 0 #3D4849;
+  text-shadow: -5px 0 #06191D;
 }
 
 .navIcons { 
@@ -78,7 +78,7 @@ i.homeLink {
 
 i.homeLink:hover {
   transform: scale(1.2);
-  color: #3D4849;
+  color: #06191D;
 }
 
 i.arrowDown {
@@ -99,7 +99,7 @@ i.arrowDown {
 }
 
 .aboutIconsJs {
-  color: #3D4849;
+  color: #06191D;
   position: absolute;
   top: -25px;
   /* border: 1px solid rgba(250, 249, 246, 0.88); */
@@ -109,7 +109,7 @@ i.arrowDown {
 }
 
 .aboutIconsReact {
-  color: #3D4849;
+  color: #06191D;
   position: absolute;
   top: -25px;
   /* border: 1px solid rgba(250, 249, 246, 0.88); */
@@ -119,7 +119,7 @@ i.arrowDown {
 }
 
 .aboutIconsGithub {
-  color: #3D4849;
+  color: #06191D;
   position: absolute;
   top: -25px;
   /* border: 1px solid rgba(250, 249, 246, 0.88); */
@@ -129,8 +129,8 @@ i.arrowDown {
 }
 
 .tileInfo {
-  border-top: 1px solid #3D4849;
-  border-bottom: 1px solid #3D4849;
+  border-top: 1px solid #06191D;
+  border-bottom: 1px solid #06191D;
 }
 
 .arrow {
@@ -157,7 +157,7 @@ i.arrowDown {
 
 .aboutHeroSection {
   background-color: #F5F5F5;
-  box-shadow: -5px 5px #3D4849, -5px 5px #3D4849;
+  box-shadow: -5px 5px #06191D, -5px 5px #06191D;
 }
 
 /* Project Section */
@@ -184,12 +184,12 @@ i.arrowDown {
 }
 
 .viewProjects {
-  border: 1px solid #3D4849;
+  border: 1px solid #06191D;
   text-decoration: none;
-  color: #3D4849;
+  color: #06191D;
 }
 
 .viewProjects:hover {
-  background-color: #3D4849;
+  background-color: #06191D;
   color: #F5F5F5; 
 }
