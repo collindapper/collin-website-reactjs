@@ -183,6 +183,34 @@ i.arrowDown {
   }
 }
 
+.airbnbImg {
+  background-image: url(../images/airbnb.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.twitterImg {
+  background-image: url(../images/Twitter.png);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.xchangeImg {
+  background-image: url(../images/currency\ converter.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.movieFinderImg {
+  background-image: url(../images/movie\ finder.jpg);
+  background-size: cover;
+  background-position: left;
+  height: 500px;
+}
+
 .viewProjects {
   border: 1px solid #06191D;
   text-decoration: none;
