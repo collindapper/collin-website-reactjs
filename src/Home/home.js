@@ -91,14 +91,14 @@ class Home extends React.Component {
               <i class="fa-solid fa-chevron-down mt-1 arrowDown"></i>
             </div>
 
-            <div className="column col-12">
-              <div className='airbnbImg my-2' alt='Airbnb'></div>
-              <div className='movieFinderImg' alt='Movie Finder'></div>
+            <div className="column">
+              <img src={require('../images/Airbnb.jpg')} alt='Airbnb' />
+              <img src={require('../images/movie finder.jpg')} alt='Movie Finder' />
             </div>
             
             <div className="column">
-              <div className='xchangeImg my-2' alt='Currency Converter'></div>
-              <div className='twitterImg' alt='Twitter'></div>
+              <img src={require('../images/currency converter.jpg')} alt='Currency Converter' />
+              <img src={require('../images/Twitter.png')} alt='Twitter' />
             </div>
             <a role='button' className="viewProjects button rounded mt-4 py-2 text-center fontSecondary" href='/projects'>View all projects</a>
           </div>
