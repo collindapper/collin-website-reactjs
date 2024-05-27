@@ -92,7 +92,7 @@ class Home extends React.Component {
             </div>
 
             <div className="column">
-              <img src={require('../images/movie finder.jpg')} alt='Airbnb' />
+              <img src={require('../images/airbnb.jpg')} alt='Airbnb' />
               <img src={require('../images/movie finder.jpg')} alt='Movie Finder' />
             </div>
             
