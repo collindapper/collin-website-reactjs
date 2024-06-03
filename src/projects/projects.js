@@ -244,6 +244,21 @@ class Projects extends React.Component {
           <Slide right>
             <div className="flip-card col-12 mb-1">
               <div className="flip-card-inner">
+                <div className="flip-card-front ipFinderImg" >
+                </div>
+              </div>
+            </div>
+            <div className="col-12">
+              <h4 className="fontPrimary mt-2 text-center">IP Finder</h4>
+              <p className="fontSecondary text-center">IP address finder application, built with React that uses Mapbox GL, an AI powered location technology, that finds approximate location of searched IP address with added functionality to search your assigned IP address.</p>
+              <a role='button' className="viewRepo btn mt-2 fontSecondary" href='https://ip-finder-version-one-a73472b80343.herokuapp.com/' target="_blank">View production build</a>
+              <a role='button' className="viewRepo btn mt-2 mb-4 fontSecondary" href='https://github.com/collindapper/ip_finder_v2' target="_blank">View GitHub Repo</a>
+            </div>
+          </Slide>
+
+          <Slide right>
+            <div className="flip-card col-12 mb-1">
+              <div className="flip-card-inner">
                 <div className="flip-card-front websiteImg" >
                 </div>
               </div>
