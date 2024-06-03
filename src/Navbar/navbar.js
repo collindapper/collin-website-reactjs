@@ -61,7 +61,7 @@ class Navbar extends React.Component {
                       <a className="nav-link text-black" href='/'>Home</a>
                     </li>
                     <li className="nav-item fontNavigation mx-auto">
-                      <a className="nav-link text-black" href='/about'>Experience</a>
+                      <a className="nav-link text-black" href='/experience'>Experience</a>
                     </li>
                     <li className="nav-item fontNavigation mx-auto">
                       <a className="nav-link text-black" href='/projects'>Projects</a>

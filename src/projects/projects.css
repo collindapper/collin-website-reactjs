@@ -94,6 +94,13 @@ body {
 }
 
 /* Style the front side (fallback if image is missing) */
+.ipFinderImg {
+  background-image: url(../images/IP\ Finder\ v1.png);
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #faf9f6;
+}
+
 .websiteImg {
   background-image: url(../images/website.jpg);
   background-size: cover;
