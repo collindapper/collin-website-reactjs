@@ -37,7 +37,7 @@ class Home extends React.Component {
 
         {/* About Me Section */}
  
-        <div className="d-flex row justify-content-around mx-3 aboutTilesContainer">
+        <div className="d-flex row container justify-content-around mx-auto aboutTilesContainer">
           <div className="d-flex arrow bounce mt-5 mb-3">
             <h4 className="text-center fontPrimary me-2">About Me</h4>
             <i className="fa-solid fa-chevron-down mt-1 arrowDown"></i>
