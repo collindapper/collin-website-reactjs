@@ -1,16 +1,22 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
+import TextTransition, { presets } from 'react-text-transition';
 import './home.css';
 
-class Home extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      userProjects: [],
-    }
-  }
+const TEXTS = ['Computer Science Student', 'Trained IT Professional', 'Future Software Developer'];
 
-  render () {
+  function Home() {
+
+    const [index, setIndex] = React.useState(0);
+
+    React.useEffect(() => {
+      const intervalId = setInterval(
+        () => setIndex((index) => index + 1),
+        3000, // every 3 seconds
+      );
+      return () => clearTimeout(intervalId);
+    }, []);
+
     return (
       <React.Fragment>
         {/* HERO SECTION */}
@@ -23,7 +29,7 @@ class Home extends React.Component {
             <Fade right>
             <div className="col-12 col-md-6 my-auto py-4 ms-md-5 introCard">
               <p className="display-1 text-center heading fontPrimary">Collin Dapper</p>
-              <p className="display-6 text-center subHeading fontSecondary mb-auto">Computer Science Student</p>
+              <p className="display-6 subHeading fontSecondary mb-auto"><TextTransition className='justify-content-center' springConfig={presets.gentle}>{TEXTS[index % TEXTS.length]}</TextTransition></p>
               <div className="divider mt-4 mb-2 w-50 mx-auto"></div>
               <div className="d-flex justify-content-center mt-2">
                 <a className="nav-link text-black text-center navIcons mx-3 px-3" href="https://www.linkedin.com/in/collin-dapper-a1b59a152/" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin homeLink display-6"></i></a>
@@ -106,6 +112,6 @@ class Home extends React.Component {
       </React.Fragment>
     )
   }
-}
+
 
 export default Home;

@@ -49,7 +49,7 @@ class Projects extends React.Component {
             </div>
             <div className="col-6">
               <h4 className="fontPrimary mt-2">Personal Website</h4>
-              <p className="fontSecondary">Full-Stack Personal Website to display facts about me, professional experience, projects, skills, and insight on my journey into Information Technology, that you are currently viewing this on!</p>
+              <p className="fontSecondary">Full-Stack Personal Website to display facts about me, professional experience, projects, skills, and insight on my journey into Computer Science, that you are currently viewing this on!</p>
               <a role='button' className="viewRepo btn mt-2 fontSecondary" href='https://github.com/collindapper/collins-website' target="_blank">View GitHub Repo</a>
             </div>
           </Slide>
@@ -265,7 +265,7 @@ class Projects extends React.Component {
             </div>
             <div className="col-12">
               <h4 className="fontPrimary mt-2 text-center">Personal Website</h4>
-              <p className="fontSecondary text-center">Full-Stack Personal Website to display facts about me, professional experience, projects, skills, and insight on my journey into Information Technology, that you are currently viewing this on!</p>
+              <p className="fontSecondary text-center">Full-Stack Personal Website to display facts about me, professional experience, projects, skills, and insight on my journey into Computer Science, that you are currently viewing this on!</p>
               <a role='button' className="viewRepo btn mt-2 fontSecondary mb-5" href='https://github.com/collindapper/collins-website' target="_blank">View GitHub Repo</a>
             </div>
           </Slide>
