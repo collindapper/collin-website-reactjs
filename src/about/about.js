@@ -14,7 +14,7 @@ class About extends React.Component {
           <div className="row aboutRow mt-3 mb-5">
             <Slide left>
             <div className="col-12 col-lg-4 mx-auto mb-md-auto mt-3 mt-md-3">
-              <p className="heading display-3 fontPrimary"><strong>EDUCATION</strong></p>
+              <p className="heading display-3 fontPrimary"><strong>Education</strong></p>
             </div>
             </Slide>
 
@@ -46,7 +46,7 @@ class About extends React.Component {
           <div className="row aboutRow mt-3 mt-md-5">
             <Slide left>
             <div className="col-12 col-lg-4 mx-auto mt-md-3">
-              <p className="heading display-3 fontPrimary"><strong>EXPERIENCE</strong></p>
+              <p className="heading display-3 fontPrimary"><strong>Experience</strong></p>
             </div>
             </Slide>
 
@@ -56,9 +56,11 @@ class About extends React.Component {
               <h5 className="fontSecondary">Allocate and Maintain IT inventory, coordinate ordering, delivering, and audits of assets assigned to the IT department.</h5>
               <br/>
               <h5 className="fontSecondary title">
-              - Handle support requests and procedures across the network.<br/>
+              - Maintain inventory levels including storage and procurement.<br/>
               <br/>
-              - Allocate, maintain, and troubleshoot IT equipment used in Amazon Operations facilities.<br/>
+              - Allocate, maintain, and troubleshoot thin clients, PCs, scanners, portable handheld terminals, and other IT equipment used in Amazon Operations facilities.<br/>
+              <br/>
+              - Handle support requests and procedures across the network.<br/>
               <br/>
               - Responsible for RMA and repair process for all devices on-site.<br/>
               <br/>

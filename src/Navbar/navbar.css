@@ -40,9 +40,11 @@ i {
   color: #061e45;
 }
 
-.nav-item:hover {
-  transform: scale(1.2);
-  text-decoration: underline;
+@media screen and (min-width: 900px) {
+  .nav-item:hover {
+    transform: scale(1.2);
+    text-decoration: underline;
+  }
 }
 
 /* MOBILE NAV TOGGLE */
