@@ -87,7 +87,7 @@ class Navbar extends React.Component {
                       <a className="nav-link text-black fontNavigation" href="/">Home</a>
                     </li>
                     <li className="nav-item fontNavigation text-start">
-                      <a className="nav-link text-black fontNavigation" href="/about">Experience</a>
+                      <a className="nav-link text-black fontNavigation" href="/experience">Experience</a>
                     </li>
                     <li className="nav-item fontNavigation text-start">
                       <a className="nav-link text-black fontNavigation" href="/projects">Projects</a>
