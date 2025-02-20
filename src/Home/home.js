@@ -22,18 +22,9 @@ const TEXTS = ['Computer Science Student', 'Trained IT Professional', 'Future So
         {/* HERO SECTION */}
         <div className="HomeBody mb-5">
           <div id="ex1" className="row heroSection container mx-auto mt-5 d-flex align-content-center justify-content-center">
-<<<<<<< HEAD
-            <Fade left>
-            <div id="ex1-layer" className="d-flex col-12 col-sm-5 avatar shadow-lg"></div>
-            </Fade>
-
-            <Fade right>
-            <div className="col-12 col-sm-6 my-auto py-4 ms-md-5 introCard">
-=======
             <div id="ex1-layer" className="d-flex col-12 col-md-5 avatar shadow-lg"></div>
             <div className="col-12 col-md-6 my-auto py-4 ms-md-5 introCard">
               <Fade direction='right'>
->>>>>>> 59c18e5f7830f16533ea50a372a7e14a4df73384
               <p className="display-1 text-center heading fontPrimary">Collin Dapper</p>
               <h2 className="subHeading fontSecondary mb-auto text-center"><TextTransition className='justify-content-center align-items-center' springConfig={presets.gentle}>{TEXTS[index % TEXTS.length]}</TextTransition></h2>
               <div className="divider mt-3 mb-2 w-50 mx-auto"></div>
