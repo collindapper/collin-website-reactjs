@@ -14,9 +14,13 @@ class About extends React.Component {
           <div className="row aboutRow mt-3 mb-5">
             
             <div className="col-12 col-lg-4 mx-auto mb-md-auto mt-3 mt-md-3">
+<<<<<<< HEAD
+              <p className="heading display-3 fontPrimary"><strong>Education</strong></p>
+=======
             <Slide direction='left' triggerOnce>
               <p className="heading display-3 fontPrimary"><strong>EDUCATION</strong></p>
               </Slide>
+>>>>>>> 59c18e5f7830f16533ea50a372a7e14a4df73384
             </div>
             
             <div className="col-12 col-lg-8 my-md-auto pt-md-4 ps-md-5">
@@ -46,8 +50,13 @@ class About extends React.Component {
 
           <div className="row aboutRow mt-3 mt-md-5">
             <div className="col-12 col-lg-4 mx-auto mt-md-3">
+<<<<<<< HEAD
+              <p className="heading display-3 fontPrimary"><strong>Experience</strong></p>
+            </div>
+=======
             <Slide direction='left' triggerOnce>
               <p className="heading display-3 fontPrimary"><strong>EXPERIENCE</strong></p>
+>>>>>>> 59c18e5f7830f16533ea50a372a7e14a4df73384
             </Slide>
             </div>
 
@@ -57,11 +66,17 @@ class About extends React.Component {
               <h5 className="fontSecondary">Responsible for utilizing IT skills to provide assistance to the operations team by maintaining IT inventory, coordinating ordering, delivery, and audits of assets assigned to the IT department, and maintaining general standardized housekeeping of all IT areas.</h5>
               <br/>
               <h5 className="fontSecondary title">
+<<<<<<< HEAD
+              - Maintain inventory levels including storage and procurement.<br/>
+=======
               - Allocate, maintain, and troubleshoot thin clients, PCs, scanners, portable handheld terminals, and other IT equipment used in Amazon Operations facilities.<br/>
               <br/>
               - Handle support requests and procedures across the network.<br/>
+>>>>>>> 59c18e5f7830f16533ea50a372a7e14a4df73384
               <br/>
-              - Allocate, maintain, and troubleshoot IT equipment used in Amazon Operations facilities.<br/>
+              - Allocate, maintain, and troubleshoot thin clients, PCs, scanners, portable handheld terminals, and other IT equipment used in Amazon Operations facilities.<br/>
+              <br/>
+              - Handle support requests and procedures across the network.<br/>
               <br/>
               - Responsible for RMA and repair process for all devices on-site.<br/>
               <br/>
