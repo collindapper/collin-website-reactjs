@@ -54,9 +54,11 @@ class About extends React.Component {
             <div className="col-12 col-lg-8 my-md-auto pt-md-4 ps-md-5">
             <Slide direction='right' triggerOnce>
               <h1 className="fontPrimary title">IT Equipment Coordinator - Amazon.com</h1>
-              <h5 className="fontSecondary">Allocate and Maintain IT inventory, coordinate ordering, delivering, and audits of assets assigned to the IT department.</h5>
+              <h5 className="fontSecondary">Responsible for utilizing IT skills to provide assistance to the operations team by maintaining IT inventory, coordinating ordering, delivery, and audits of assets assigned to the IT department, and maintaining general standardized housekeeping of all IT areas.</h5>
               <br/>
               <h5 className="fontSecondary title">
+              - Allocate, maintain, and troubleshoot thin clients, PCs, scanners, portable handheld terminals, and other IT equipment used in Amazon Operations facilities.<br/>
+              <br/>
               - Handle support requests and procedures across the network.<br/>
               <br/>
               - Allocate, maintain, and troubleshoot IT equipment used in Amazon Operations facilities.<br/>
