@@ -23,7 +23,6 @@ const TEXTS = ['Computer Science Student', 'Trained IT Professional', 'Future So
         <div className="HomeBody mb-5">
           <div id="ex1" className="row heroSection container mx-auto mt-5 d-flex align-content-center justify-content-center">
             <div id="ex1-layer" className="d-flex col-12 col-md-5 avatar shadow-lg"></div>
-
             <div className="col-12 col-md-6 my-auto py-4 ms-md-5 introCard">
               <Fade direction='right'>
               <p className="display-1 text-center heading fontPrimary">Collin Dapper</p>
@@ -35,7 +34,6 @@ const TEXTS = ['Computer Science Student', 'Trained IT Professional', 'Future So
               </div>
               </Fade>
             </div>
-
           </div>
         </div>
 
