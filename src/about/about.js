@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './about.css';
-import Slide from 'react-reveal/Slide';
+import { Slide } from 'react-awesome-reveal';
 
 class About extends React.Component {
 
@@ -12,14 +12,15 @@ class About extends React.Component {
         <div className="container">
           
           <div className="row aboutRow mt-3 mb-5">
-            <Slide left>
+            
             <div className="col-12 col-lg-4 mx-auto mb-md-auto mt-3 mt-md-3">
+            <Slide direction='left' triggerOnce>
               <p className="heading display-3 fontPrimary"><strong>EDUCATION</strong></p>
+              </Slide>
             </div>
-            </Slide>
-
-            <Slide right>
+            
             <div className="col-12 col-lg-8 my-md-auto pt-md-4 ps-md-5">
+            <Slide direction='right' triggerOnce>
               <h1 className="fontPrimary title">Western Governors University</h1>
               <h3 className="fontPrimary">Bachelor of Science, Computer Science</h3>
               <p className="bodySection fontSecondary"><secondary>November 2023 - Present</secondary></p>
@@ -39,19 +40,19 @@ class About extends React.Component {
               <h3 className="fontPrimary">Associates in Math and Science(AA-S)/Associates in Business Administration(AS-T)</h3>
               <p className="bodySection fontSecondary"><secondary>June 2015 - December 2017</secondary></p>
               <br />
-            </div>
             </Slide>
+            </div>
           </div>
 
           <div className="row aboutRow mt-3 mt-md-5">
-            <Slide left>
             <div className="col-12 col-lg-4 mx-auto mt-md-3">
+            <Slide direction='left' triggerOnce>
               <p className="heading display-3 fontPrimary"><strong>EXPERIENCE</strong></p>
-            </div>
             </Slide>
+            </div>
 
-            <Slide right>
             <div className="col-12 col-lg-8 my-md-auto pt-md-4 ps-md-5">
+            <Slide direction='right' triggerOnce>
               <h1 className="fontPrimary title">IT Equipment Coordinator - Amazon.com</h1>
               <h5 className="fontSecondary">Allocate and Maintain IT inventory, coordinate ordering, delivering, and audits of assets assigned to the IT department.</h5>
               <br/>
@@ -131,9 +132,8 @@ class About extends React.Component {
               <br/>
               <p className="bodySection fontSecondary"><secondary>April 2021 - April 2022</secondary></p>
               <br />
-            </div>
             </Slide>
-
+            </div>
           </div>
 
           
