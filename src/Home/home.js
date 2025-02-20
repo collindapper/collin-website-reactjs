@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Fade from 'react-reveal/Fade';
+import { Fade } from 'react-awesome-reveal';
 import TextTransition, { presets } from 'react-text-transition';
 import './home.css';
 
@@ -22,12 +22,18 @@ const TEXTS = ['Computer Science Student', 'Trained IT Professional', 'Future So
         {/* HERO SECTION */}
         <div className="HomeBody mb-5">
           <div id="ex1" className="row heroSection container mx-auto mt-5 d-flex align-content-center justify-content-center">
+<<<<<<< HEAD
             <Fade left>
             <div id="ex1-layer" className="d-flex col-12 col-sm-5 avatar shadow-lg"></div>
             </Fade>
 
             <Fade right>
             <div className="col-12 col-sm-6 my-auto py-4 ms-md-5 introCard">
+=======
+            <div id="ex1-layer" className="d-flex col-12 col-md-5 avatar shadow-lg"></div>
+            <div className="col-12 col-md-6 my-auto py-4 ms-md-5 introCard">
+              <Fade direction='right'>
+>>>>>>> 59c18e5f7830f16533ea50a372a7e14a4df73384
               <p className="display-1 text-center heading fontPrimary">Collin Dapper</p>
               <h2 className="subHeading fontSecondary mb-auto text-center"><TextTransition className='justify-content-center align-items-center' springConfig={presets.gentle}>{TEXTS[index % TEXTS.length]}</TextTransition></h2>
               <div className="divider mt-3 mb-2 w-50 mx-auto"></div>
@@ -35,9 +41,8 @@ const TEXTS = ['Computer Science Student', 'Trained IT Professional', 'Future So
                 <a className="nav-link text-black text-center navIcons mx-3 px-3" href="https://www.linkedin.com/in/collin-dapper-a1b59a152/" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin homeLink display-6"></i></a>
                 <a className="nav-link text-black  text-center navIcons mx-3 px-3" href="https://github.com/collindapper" target="_blank" rel="noreferrer"><i className="fa-brands fa-github homeLink display-6"></i></a>
               </div>
+              </Fade>
             </div>
-            </Fade>
-
           </div>
         </div>
 
@@ -50,7 +55,7 @@ const TEXTS = ['Computer Science Student', 'Trained IT Professional', 'Future So
           </div>
 
           <div className='text-center mb-5'>
-            <h1 className='fontSecondary text-center'>Computer Science student with a passion for scripting and programming, knowledgeable IT professional and certified Full-Stack Web developer, seeking experience in Software Development.</h1>
+            <h1 className='fontSecondary text-center'>Computer Science student with a passion for scripting and programming, knowledgeable IT professional and certified Full-Stack Web developer, seeking internships and apprenticeships in Software Development Engineering.</h1>
             <div className="divider mt-5 w-75 mx-auto"></div>
           </div>
           
@@ -79,12 +84,10 @@ const TEXTS = ['Computer Science Student', 'Trained IT Professional', 'Future So
             </div>
 
             <div className="column">
-              <img src={require('../certImages/Pre-Security.jpg')} alt='Pre-Security' />
               <img src={require('../certImages/Full-Stack Deployment Certification.jpg')} alt='Full-Stack Deployment' />
             </div>
             
             <div className="column">
-              <img src={require('../certImages/Intro to Cyber Security.jpg')} alt='Intro to Cyber' />
               <img src={require('../certImages/JavaScript Certification.jpg')} alt='JavaScript' />
             </div>
             <a role='button' className="viewProjects button rounded mt-4 py-2 text-center fontSecondary" href='/skills'>View all certifications</a>

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './skills.css';
-import Slide from 'react-reveal/Slide';
+import { Slide } from 'react-awesome-reveal';
 
 
 class Skills extends React.Component {
@@ -16,7 +16,7 @@ class Skills extends React.Component {
       <React.Fragment>
         <div className="container skillsContainer py-4">
           <div className="d-flex justify-content-between align-items-center mb-4">
-            <Slide left>
+            <Slide ldirection="left">
             <p className="heading mb-0 display-3 fontPrimary"><strong>Skills</strong></p>
             </Slide>
           </div>
@@ -134,30 +134,17 @@ class Skills extends React.Component {
 
           
           <div className="d-flex align-items-center mb-4 mt-4">
-            <Slide left>
+            <Slide direction="left">
               <p className="heading mb-0 display-3 fontPrimary"><strong>Certifications</strong></p>
             </Slide>
           </div>
 
           <div className='d-flex row justify-content-around mb-md-4'>
             <div className='skillBox rounded col-md-4 col-11 py-2 mb-2'>
-              <img src={require('../certImages/Pre-Security.jpg')} />
-              <div className="divider mt-4 mb-2 w-50 mx-auto"></div>
-              <h3 className='fontSecondary text-center my-2'>Pre-Security</h3>
-            </div>
-            <div className='skillBox rounded col-md-4 col-11 py-2 mb-2'>
-              <img src={require('../certImages/Intro to Cyber Security.jpg')} />
-              <div className="divider mt-4 mb-2 w-50 mx-auto"></div>
-              <h3 className='fontSecondary text-center my-2'>Intro to Cyber Security</h3>
-            </div>
-            <div className='skillBox rounded col-md-4 col-11 py-2 mb-2'>
               <img src={require('../certImages/Full-Stack Deployment Certification.jpg')} />
               <div className="divider mt-4 mb-2 w-50 mx-auto"></div>
               <h3 className='fontSecondary text-center my-2'>Full-Stack Deployment</h3>
             </div>
-          </div>
-
-          <div className='d-flex row justify-content-around mb-md-4'>
             <div className='skillBox rounded col-md-4 col-11 py-2 mb-2'>
               <img src={require('../certImages/Ruby on Rails Certification.jpg')} />
               <div className="divider mt-4 mb-2 w-50 mx-auto"></div>
@@ -168,14 +155,14 @@ class Skills extends React.Component {
               <div className="divider mt-4 mb-2 w-50 mx-auto"></div>
               <h3 className='fontSecondary text-center my-3'>Ruby Programming</h3>
             </div>
+          </div>
+
+          <div className='d-flex row justify-content-around mb-md-4'>
             <div className='skillBox rounded col-md-4 col-11 py-2 mb-2'>
               <img src={require('../certImages/ReactJS Development Certification.jpg')} />
               <div className="divider mt-4 mb-2 w-50 mx-auto"></div>
               <h3 className='fontSecondary text-center my-3'>ReactJS Development</h3>
             </div>
-          </div>
-
-          <div className='d-flex row justify-content-around mb-md-4'>
             <div className='skillBox rounded col-md-4 col-11 py-2 mb-2'>
               <img src={require('../certImages/Dynamic Website Development Certification.jpg')} />
               <div className="divider mt-4 mb-2 w-50 mx-auto"></div>
@@ -186,6 +173,9 @@ class Skills extends React.Component {
               <div className="divider mt-4 mb-2 w-50 mx-auto"></div>
               <h3 className='fontSecondary text-center my-3'>JavaScript Programming</h3>
             </div>
+          </div>
+
+          <div className='d-flex row justify-content-around mb-md-4'>
             <div className='skillBox rounded col-md-4 col-11 py-2 mb-2'>
               <img src={require('../certImages/HTML CSS Certification.jpg')} />
               <div className="divider mt-4 mb-2 w-50 mx-auto"></div>
