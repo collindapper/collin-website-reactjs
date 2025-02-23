@@ -30,9 +30,9 @@ class Skills extends React.Component {
               <h5 className='fontPrimary text-center col-12'>Programming Language</h5>
             </div>
             <div className='row skillBox col-lg-4 col-12 py-3 mb-2'>
-              <div className='text-center col-7 rubyImg mx-auto'></div>
+              <div className='text-center col-7 cPlusPlusImg mx-auto'></div>
               <div className="divider mt-4 mb-2 w-50 mx-auto"></div>
-              <h2 className='fontPrimary text-center col-12'>Ruby</h2>
+              <h2 className='fontPrimary text-center col-12'>C++</h2>
               <h5 className='fontPrimary text-center col-12'>Programming Language</h5>
             </div>
             <div className='row skillBox col-lg-4 col-12 py-3 mb-2'>
@@ -112,6 +112,12 @@ class Skills extends React.Component {
           
           <div className='d-flex row justify-content-around mb-md-4'>
             <div className='row skillBox col-lg-4 col-12 py-3 mb-2'>
+              <div className='text-center col-7 rubyImg mx-auto'></div>
+              <div className="divider mt-4 mb-2 w-50 mx-auto"></div>
+              <h2 className='fontPrimary text-center col-12'>Ruby</h2>
+              <h5 className='fontPrimary text-center col-12'>Programming Language</h5>
+            </div>
+            <div className='row skillBox col-lg-4 col-12 py-3 mb-2'>
               <div className='text-center col-7 gitImg mx-auto'></div>
               <div className="divider mt-4 mb-2 w-50 mx-auto"></div>
               <h2 className='fontPrimary text-center col-12'>Git</h2>
@@ -123,6 +129,10 @@ class Skills extends React.Component {
               <h2 className='fontPrimary text-center col-12'>Ubuntu</h2>
               <h5 className='fontPrimary text-center col-12'>Linux Distribution</h5>
             </div>
+          </div>
+          <br/>
+
+          <div className='d-flex row justify-content-around mb-md-4'>
             <div className='row skillBox col-lg-4 col-12 py-3 mb-2'>
               <div className='text-center col-7 proxmoxImg mx-auto'></div>
               <div className="divider mt-4 mb-2 w-50 mx-auto"></div>

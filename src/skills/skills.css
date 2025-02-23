@@ -72,6 +72,14 @@ body {
   height: 150px;
 }
 
+.cPlusPlusImg {
+  background-image: url(../skillsImages/C++.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+
 .reactImg {
   background-image: url(../skillsImages/react.png);
   background-size: contain;
