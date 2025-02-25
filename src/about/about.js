@@ -23,17 +23,17 @@ class About extends React.Component {
             <Slide direction='right' triggerOnce>
               <h1 className="fontPrimary title">Western Governors University</h1>
               <h3 className="fontPrimary">Bachelor of Science, Computer Science</h3>
-              <p className="bodySection fontSecondary"><secondary>November 2023 - Present</secondary></p>
+              <p className="bodySection fontSecondary"><secondary>Graduation Date: November 2026</secondary></p>
               <br />
 
               <h1 className="fontPrimary title">Altcademy</h1>
               <h3 className="fontPrimary">Full-Stack Web Development</h3>
-              <p className="bodySection fontSecondary"><secondary>November 2021 - September 2022</secondary></p>
+              <p className="bodySection fontSecondary"><secondary>Certification Date: September 2022</secondary></p>
               <br />
 
               <h1 className="fontPrimary title">University of Nevada, Reno</h1>
               <h3 className="fontPrimary">Bachelor of Science in Finance. Minor in Economics</h3>
-              <p className="bodySection fontSecondary"><secondary>January 2018 - August 2020</secondary></p>
+              <p className="bodySection fontSecondary"><secondary>Graduation Date: August 2020</secondary></p>
               <br />
 
               <h1 className="fontPrimary title">San Joaquin Delta College</h1>
@@ -57,36 +57,36 @@ class About extends React.Component {
               <h5 className="fontSecondary">Responsible for utilizing IT skills to provide assistance to the operations team by maintaining IT inventory, coordinating ordering, delivery, and audits of assets assigned to the IT department, and maintaining general standardized housekeeping of all IT areas.</h5>
               <br/>
               <h5 className="fontSecondary title">
-              - Allocate, maintain, and troubleshoot thin clients, PCs, scanners, portable handheld terminals, and other IT equipment used in Amazon Operations facilities.<br/>
+              - Allocate, maintain, and troubleshoot thin clients, PCs, scanners, portable handheld terminals, and various IT equipment across Amazon Operations facilities, ensuring smooth day-to-day operations.<br/>
               <br/>
-              - Handle support requests and procedures across the network.<br/>
+              - Handle and resolve technical support requests across the network, providing timely solutions to minimize system downtime and improve operational efficiency.<br/>
               <br/>
-              - Allocate, maintain, and troubleshoot thin clients, PCs, scanners, portable handheld terminals, and other IT equipment used in Amazon Operations facilities.<br/>
+              - Oversee the RMA and repair process for all on-site devices, managing device returns and repairs to ensure quick resolution and maintain equipment functionality.<br/>
               <br/>
-              - Handle support requests and procedures across the network.<br/>
+              - Support Junior and Senior Technicians in daily projects and technical tasks, fostering team collaboration and enhancing overall productivity in the IT department.<br/>
               <br/>
-              - Responsible for RMA and repair process for all devices on-site.<br/>
-              <br/>
-              - Support Junior and Senior Technicians with daily projects and activities.</h5>
+              - Skills: Bash/Shell Command Line, Windows OS, Troubleshooting, Debugging, Microsoft Outlook, Slack, ServiceNow.</h5>
               <br/>
               <p className="bodySection fontSecondary"><secondary>October 2023 - Present</secondary></p>
               <br />
 
-              <h1 className="fontPrimary title">Flow Process Assistant, Operations - Amazon.com</h1>
+              <h1 className="fontPrimary title">Flow Process Assistant & Manager I, Operations - Amazon.com</h1>
               <h5 className="fontSecondary">Develop and Implement efficient work-flow practices to increase productivity and operation performance, while maintaining the highest safety and quality standards for my team.</h5>
               <br/>
               <h5 className="fontSecondary title">
-              - Standardize flow processes to streamline operation growth.<br/>
+              - Developed and implemented tools to track and analyze cost and production trends, providing actionable insights to drive operational efficiency and cost optimization.<br/>
               <br/>
-              - Develop tools to track and analyze cost and production trends<br/>
+              - Analyzed cost and production trends to effectively plan headcount for both direct and indirect roles, ensuring optimal staffing levels to meet production goals.<br/>
               <br/>
-              - Analyze cost and production trends to properly plan headcount in both direct and indirect roles.<br/>
+              - Created and set performance goals to align with customer demand, ensuring operational accuracy, quality, and timely delivery.<br/>
               <br/>
-              - Create performance goals and objectives to achieve customer demand and ensure accuracy and quality.<br/>
+              - Facilitated communication between Reliability & Maintenance Engineers and Operations Leadership, ensuring all equipment and conveyance systems were in proper working condition to prevent operational delays and disruptions.<br/>
               <br/>
-              - Bridge the gap between the Reliability and Maintenance Engineers and Operation Leadership to ensure all conveyance and equipment is in proper working condition to prevent any delays in operation work-flows.</h5>
+              - Led initiatives to implement performance goals and objectives that supported customer demand while maintaining high standards of accuracy and quality.<br/>
               <br/>
-              <p className="bodySection fontSecondary"><secondary>October 2022 - October 2023</secondary></p>
+              - Skills: Management, Team Leadership, Data Analysis (Grafana, iGraphs, Microsoft Excel), Cost Optimization, Operational Planning.</h5>
+              <br/>
+              <p className="bodySection fontSecondary"><secondary>April 2021 - October 2023</secondary></p>
               <br />
 
 
@@ -108,33 +108,6 @@ class About extends React.Component {
                 and create property listings), and book trips off of other users listings via Stripe web-hook for transactions.</h5>
                 <br/>
               <p className="bodySection fontSecondary"><secondary>November 2021 - September 2022</secondary></p>
-              <br />
-
-              <h1 className="fontPrimary title">Manager I, Operations - Amazon.com</h1>
-              <h5 className="fontSecondary">Lead a team of hourly workforce and engaged my team during their shifts to maintain the highest levels of safety, quality,
-              attendance, and performance. Maintained our customer expectations to ensure customer orders were delivered at the
-              correct place and time.</h5>
-              <br/>
-              <h5 className="fontSecondary">
-              - Coach, manage, and develop a team of 200 Amazon associates<br/>
-              <br/>
-              - Communicate policies to my team and act as the primary information source for the team<br/>
-              <br/>
-              - maintaining compliance, consistency, and taking corrective action when needed<br/>
-              <br/>
-              - Create, manage, and support recognition programs<br/>
-              <br/>
-              - Support all safety programs and OSHA compliance to ensure a safe work environment for all associates<br/>
-              <br/>
-              - Ensure procedures are followed for building security and product loss prevention<br/>
-              <br/>
-              - Develop tools to track and analyze cost and production trends<br/>
-              <br/>
-              - Partner with the management team to establish and maintain quality control standards<br/>
-              <br/>
-              - Develop performance goals and objectives to achieve customer demand and ensure accuracy and quality</h5>
-              <br/>
-              <p className="bodySection fontSecondary"><secondary>April 2021 - April 2022</secondary></p>
               <br />
             </Slide>
             </div>
