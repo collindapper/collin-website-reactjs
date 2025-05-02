@@ -24,6 +24,18 @@ class Projects extends React.Component {
          
          {/* Tablet/Desktop Screens */}
          <div className="row d-none d-md-flex">
+         <div className="flip-card col-6 mb-1 mb-md-4">
+            <div className="flip-card-inner">
+              <div className="flip-card-front sysHealthImg">
+              </div>
+            </div>
+          </div>
+          <div className="col-6">
+          <Slide direction="right" triggerOnce>
+            <h4 className="fontPrimary mt-2">System Health Report Monitor</h4>
+            <p className="fontSecondary">Developed a standalone system health monitoring tool in Python using Tkinter, offering real-time battery health, CPU, RAM, and disk usage insights through a user-friendly GUI. Packaged with PyInstaller for easy deployment, it features emoji support, a custom favicon, and improves workplace IT efficiency with quick diagnostics. Tech stack: Python, Tkinter, psutil, PyInstaller.</p>
+          </Slide>
+          </div>
           <div className="flip-card col-6 mb-1 mb-md-4">
             <div className="flip-card-inner">
               <div className="flip-card-front sshImg">

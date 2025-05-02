@@ -95,6 +95,13 @@ body {
 }
 
 /* Style the front side (fallback if image is missing) */
+.sysHealthImg {
+  background-image: url('../images/sysHealthImg.png');
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #faf9f6;
+}
+
 .sshImg {
   background-image: url('../images/sshTool.jpeg');
   background-size: cover;
