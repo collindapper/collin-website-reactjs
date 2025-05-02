@@ -96,112 +96,112 @@ body {
 
 /* Style the front side (fallback if image is missing) */
 .sshImg {
-  background-image: url(./images/sshTool.jpeg);
+  background-image: url('../images/sshTool.jpeg');
   background-size: cover;
   background-position: center;
   border: 1px solid #faf9f6;
 }
 
 .ipFinderImg {
-  background-image: url(./images/IP\ Finder\ v1.png);
+  background-image: url('../images/IP\ Finder\ v1.png');
   background-size: cover;
   background-position: center;
   border: 1px solid #faf9f6;
 }
 
 .websiteImg {
-  background-image: url(./images/website.jpg);
+  background-image: url('../images/website.jpg');
   background-size: cover;
   background-position: center;
   border: 1px solid #faf9f6;
 }
 
 .airbnbImg {
-  background-image: url(./images/Airbnb.jpg);
+  background-image: url('../images/Airbnb.jpg');
   background-size: cover;
   background-position: center;
   border: 1px solid #faf9f6;
 }
 
 .twitterImg {
-  background-image: url(./images/Twitter.png);
+  background-image: url('../images/Twitter.png');
   background-size: cover;
   background-position: center;
   border: 1px solid #faf9f6;
 }
 
 .xchangeImg {
-  background-image: url(./images/currency\ converter.jpg);
+  background-image: url('../images/currency\ converter.jpg');
   background-size: cover;
   background-position: center;
   border: 1px solid #faf9f6;
 }
 
 .movieFinderImg {
-  background-image: url(./images/movie\ finder.jpg);
+  background-image: url('../images/movie\ finder.jpg');
   background-size: cover;
   background-position: center;
   border: 1px solid #faf9f6;
 }
 
 .mathGameImg {
-  background-image: url(./images/math\ game.jpg);
+  background-image: url('../images/math\ game.jpg');
   background-size: cover;
   background-position: center;
   border: 1px solid #faf9f6;
 }
 
 .toDoListImg {
-  background-image: url(./images/api\ to\ do\ list.jpg);
+  background-image: url('../images/api\ to\ do\ list.jpg');
   background-size: cover;
   background-position: center;
   border: 1px solid #faf9f6;
 }
 
 .shoppingCartImg {
-  background-image: url(./images/shopping\ cart.jpg);
+  background-image: url('../images/shopping\ cart.jpg');
   background-size: cover;
   background-position: center;
   border: 1px solid #faf9f6;
 }
 
 .blackJackImg {
-  background-image: url(./images/blackjack.jpg);
+  background-image: url('../images/blackjack.jpg');
   background-size: cover;
   background-position: center;
   border: 1px solid #faf9f6;
 }
 
 .rockPaperScissorsImg {
-  background-image: url(./images/rock\ paper\ scissors.jpg);
+  background-image: url('../images/rock\ paper\ scissors.jpg');
   background-size: cover;
   background-position: center;
   border: 1px solid #faf9f6;
 }
 
 .airbnbBookingImg {
-  background-image: url(./images/airbnb\ news\ webpage.jpg);
+  background-image: url('../images/airbnb\ news\ webpage.jpg');
   background-size: cover;
   background-position: center;
   border: 1px solid #faf9f6;
 }
 
 .airbnbNewsImg {
-  background-image: url(./images/airbnb\ booking\ webpage.jpg);
+  background-image: url('../images/airbnb\ booking\ webpage.jpg');
   background-size: cover;
   background-position: center;
   border: 1px solid #faf9f6;
 }
 
 .newsweekImg {
-  background-image: url(./images/Newsweek\ clone.jpg);
+  background-image: url('../images/Newsweek\ clone.jpg');
   background-size: cover;
   background-position: center;
   border: 1px solid #faf9f6;
 }
 
 .appleImg {
-  background-image: url(./images/Apple\ Clone.jpg);
+  background-image: url('../images/Apple\ Clone.jpg');
   background-size: cover;
   background-position: center;
   border: 1px solid #faf9f6;
