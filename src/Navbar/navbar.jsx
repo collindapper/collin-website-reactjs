@@ -73,8 +73,8 @@ class Navbar extends React.Component {
                 </div>
             </div>
 
-          <div className="container d-flex d-md-none sticky-top justify-content-between">
-            <a className="d-md-none d-flex navbar-brand text-black fontPrimary my-auto" href="/">COLLIN<strong>DAPPER</strong></a>
+            <div className="container d-flex d-md-none  justify-content-between">
+              <a className="d-md-none d-flex navbar-brand text-black fontPrimary my-auto" href="/">COLLIN<strong>DAPPER</strong></a>
               <button className="d-md-none hamburger-toggle" onClick={this.toggleNavbarOpen}>
                 <span className={`hamburger hamburger-icon ${navbarOpen && "is-open"}`}></span>
               </button>

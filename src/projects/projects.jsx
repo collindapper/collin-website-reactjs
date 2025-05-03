@@ -34,6 +34,7 @@ class Projects extends React.Component {
           <Slide direction="right" triggerOnce>
             <h4 className="fontPrimary mt-2">System Health Report Monitor</h4>
             <p className="fontSecondary">Developed a standalone system health monitoring tool in Python using Tkinter, offering real-time battery health, CPU, RAM, and disk usage insights through a user-friendly GUI. Packaged with PyInstaller for easy deployment, it features emoji support, a custom favicon, and improves workplace IT efficiency with quick diagnostics. Tech stack: Python, Tkinter, psutil, PyInstaller.</p>
+            <a role='button' className="viewRepo btn mt-2 fontSecondary" href='https://github.com/collindapper/system-health-monitor' target="_blank">View GitHub Repo</a>
           </Slide>
           </div>
           <div className="flip-card col-6 mb-1 mb-md-4">
