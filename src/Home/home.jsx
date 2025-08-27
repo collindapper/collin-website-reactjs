@@ -52,21 +52,49 @@ const TEXTS = ['Computer Science Student', 'Trained IT Professional', 'Future So
           
 
           <div className="d-flex col-12 col-lg-4 aboutTiles justify-content-center mt-3 mb-5">
-            <i className="fab fa-js-square aboutIconsJs display-4 d-flex justify-content-center"></i>
-            <h4 className="my-5 py-5 fontSecondary tileInfo text-center">Adaptive, creative, and certified Junior Software Developer and trained IT professional with proficiency in Back-end programming languages, JavaScript and Ruby.</h4>
+            <i className="fa-brands fa-python aboutIconsJs display-4 d-flex justify-content-center"></i>
+            <div className="my-5 py-5 tileInfo">
+              <h2 className="fontSecondary text-center"><strong>Full-Stack Development</strong></h2>
+              <h4 className="fontSecondary text-center">I design and build responsive, user-friendly web applications from front to back, using JavaScript, React, Python, and modern frameworks to deliver clean, maintainable code.</h4>
+            </div>
           </div>
           <div className="d-flex col-12 col-lg-3 aboutTiles justify-content-center mt-3 mb-5">
-            <i className="fa-brands fa-react aboutIconsReact display-4 d-flex justify-content-center"></i>
-            <h4 className="my-5 py-5 fontSecondary tileInfo text-center">knowledgeable in front-end programming languages and frameworks such as: HTML, CSS, and ReactJS.</h4>
+            <i className="fa-brands fa-amazon aboutIconsReact display-4 d-flex justify-content-center"></i>
+            <div className="my-5 py-5 tileInfo">
+              <h2 className="fontSecondary text-center"><strong>Project Ownership & Leadership</strong></h2>
+              <h4 className="fontSecondary text-center">I take initiative in guiding projects from concept to completion, balancing technical execution with clear direction to ensure goals are met and teams stay aligned.</h4>
+            </div>
           </div>
           <div className="d-flex col-12 col-lg-4 aboutTiles justify-content-center mt-3 mb-5">
-            <i className="fa-brands fa-square-github aboutIconsGithub display-4 d-flex justify-content-center"></i>
-            <h4 className="my-5 py-5 fontSecondary tileInfo text-center">Familiar with concepts of computing and database use, as well as, conducting user research and collaborating with developers to build dynamic websites.</h4>
+            <i className="fa-brands fa-linux aboutIconsGithub display-4 d-flex justify-content-center"></i>
+            <div className="my-5 py-5 tileInfo">
+              <h2 className="fontSecondary text-center"><strong>IT & Systems Expertise</strong></h2>
+              <h4 className="fontSecondary text-center"> Experienced with Windows and Linux environments, Git workflows, and troubleshooting technical issues, I bring a strong foundation in systems and support to keep projects running smoothly.</h4>
+            </div>
           </div>
 
           <div className="divider mt-3 w-75 mx-auto"></div>
         </div>
 
+        {/* Projects Section */}
+          <div className="d-flex row container mx-auto mt-5">
+            <div className="d-flex arrow bounce mt-5 mb-3">
+              <h4 className="text-center fontPrimary me-2">Projects</h4>
+              <i className="fa-solid fa-chevron-down mt-1 arrowDown"></i>
+            </div>
+
+            <div className="column">
+              <img src='/images/sysHealthImg.png' alt='System Health Tool' />
+              <img src='/images/currency converter.jpg' alt='Currency Converter' />
+            </div>
+            
+            <div className="column">
+              <img src='/images/IP Finder v1.png' alt='IP Finder' />
+              <img class='pt-5' src='/images/sshTool.jpeg' alt='SSH Tool' />
+            </div>
+            <a role='button' className="viewProjects button rounded mt-4 py-2 text-center fontSecondary" href='/projects'>View all projects</a>
+          </div>
+        
         {/* Certifications Section */}
         <div className="d-flex row container mx-auto">
             <div className="d-flex arrow bounce mt-5 mb-3">
@@ -84,24 +112,6 @@ const TEXTS = ['Computer Science Student', 'Trained IT Professional', 'Future So
             <a role='button' className="viewProjects button rounded mt-4 py-2 text-center fontSecondary" href='/skills'>View all certifications</a>
           </div>
 
-          {/* Projects Section */}
-          <div className="d-flex row container mx-auto mt-5">
-            <div className="d-flex arrow bounce mt-5 mb-3">
-              <h4 className="text-center fontPrimary me-2">Projects</h4>
-              <i className="fa-solid fa-chevron-down mt-1 arrowDown"></i>
-            </div>
-
-            <div className="column">
-              <img src='/images/Airbnb.jpg' alt='Airbnb' />
-              <img src='/images/currency converter.jpg' alt='Currency Converter' />
-            </div>
-            
-            <div className="column">
-              <img src='/images/IP Finder v1.png' alt='IP Finder' />
-              <img src='/images/Twitter.png' alt='Twitter' />
-            </div>
-            <a role='button' className="viewProjects button rounded mt-4 py-2 text-center fontSecondary" href='/projects'>View all projects</a>
-          </div>
         
       </React.Fragment>
     )
