@@ -53,17 +53,25 @@ class About extends React.Component {
 
             <div className="col-12 col-lg-8 my-md-auto pt-md-4 ps-md-5">
             <Slide direction='right' triggerOnce>
-              <h1 className="fontPrimary title">IT Equipment Coordinator - Amazon.com</h1>
+              <h1 className="fontPrimary title">IT Support - Amazon.com</h1>
               <h5 className="fontSecondary">Responsible for utilizing IT skills to provide assistance to the operations team by maintaining IT inventory, coordinating ordering, delivery, and audits of assets assigned to the IT department, and maintaining general standardized housekeeping of all IT areas.</h5>
               <br/>
               <h5 className="fontSecondary title">
-              - Allocate, maintain, and troubleshoot thin clients, PCs, scanners, portable handheld terminals, and various IT equipment across Amazon Operations facilities, ensuring smooth day-to-day operations.<br/>
+              - Delivered end-user support across Windows and Linux systems in a high-demand environment, resolving incidents, escalating complex cases, and ensuring SLA compliance.<br/>
               <br/>
-              - Handle and resolve technical support requests across the network, providing timely solutions to minimize system downtime and improve operational efficiency.<br/>
+              - Developed a standalone Python-based diagnostic tool with Tkinter GUI, reducing device triage time by 33% through early detection of CPU, memory, and system health issues.<br/>
               <br/>
-              - Oversee the RMA and repair process for all on-site devices, managing device returns and repairs to ensure quick resolution and maintain equipment functionality.<br/>
+              - Supported Microsoft 365 applications including Outlook, troubleshooting configuration, sync, and user-access issues across devices.<br/>
               <br/>
-              - Support Junior and Senior Technicians in daily projects and technical tasks, fostering team collaboration and enhancing overall productivity in the IT department.<br/>
+              - Managed tickets using ServiceNow, resolving hardware, software, and networking incidents with follow-up to reduce recurrence.<br/>
+              <br/>
+              - Played a key role in launching a regional Inventory Standardization initiative by designing and implementing a scalable inventory system, now adopted as a model across the region.<br/>
+              <br/>
+              - Assisted in maintaining thin clients, scanners, handheld terminals, and local networking gear, ensuring minimal operational downtime.<br/>
+              <br/>
+              - Automated recurring tasks and health checks using Python and Bash scripting, contributing to proactive system monitoring and reduced response time.<br/>
+              <br/>
+              - Collaborated with team leads and technical project managers to deploy new hardware, ensure software compliance, and support internal technical escalations.<br/>
               <br/>
               - Skills: Bash/Shell Command Line, Windows OS, Troubleshooting, Debugging, Microsoft Outlook, Slack, ServiceNow.</h5>
               <br/>
