@@ -103,12 +103,10 @@ class Navbar extends React.Component {
           </nav>
           
 
-          {/*
           <div id="mainContent" className="mainContent mb-3">
             {this.props.children}
             <Calendly />
           </div>
-          */}
 
           {/* Footer */}
           <footer className="sticky-bottom mt-5">
