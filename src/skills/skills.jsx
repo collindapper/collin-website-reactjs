@@ -166,6 +166,11 @@ class Skills extends React.Component {
 
           <div className='d-flex row justify-content-around mb-md-4'>
             <div className='skillBox rounded col-md-4 col-11 py-2 mb-2'>
+              <img src='/certImages/linux.png' />
+              <div className="divider mt-4 mb-2 w-50 mx-auto"></div>
+              <h3 className='fontSecondary text-center my-2'>Linux Essentials</h3>
+            </div>
+            <div className='skillBox rounded col-md-4 col-11 py-2 mb-2'>
               <img src='/certImages/Full-Stack Deployment Certification.jpg' />
               <div className="divider mt-4 mb-2 w-50 mx-auto"></div>
               <h3 className='fontSecondary text-center my-2'>Full-Stack Deployment</h3>
@@ -175,14 +180,15 @@ class Skills extends React.Component {
               <div className="divider mt-4 mb-2 w-50 mx-auto"></div>
               <h3 className='fontSecondary text-center my-3'>Ruby on Rails</h3>
             </div>
+            
+          </div>
+
+          <div className='d-flex row justify-content-around mb-md-4'>
             <div className='skillBox rounded col-md-4 col-11 py-2 mb-2'>
               <img src='/certImages/Ruby Programming.jpg' />
               <div className="divider mt-4 mb-2 w-50 mx-auto"></div>
               <h3 className='fontSecondary text-center my-3'>Ruby Programming</h3>
             </div>
-          </div>
-
-          <div className='d-flex row justify-content-around mb-md-4'>
             <div className='skillBox rounded col-md-4 col-11 py-2 mb-2'>
               <img src='/certImages/ReactJS Development Certification.jpg' />
               <div className="divider mt-4 mb-2 w-50 mx-auto"></div>
@@ -193,14 +199,15 @@ class Skills extends React.Component {
               <div className="divider mt-4 mb-2 w-50 mx-auto"></div>
               <h3 className='fontSecondary text-center my-3'>Dynamic Website Development</h3>
             </div>
+            
+          </div>
+
+          <div className='d-flex row justify-content-around mb-md-4'>
             <div className='skillBox rounded col-md-4 col-11 py-2 mb-2'>
               <img src='/certImages/JavaScript Certification.jpg' />
               <div className="divider mt-4 mb-2 w-50 mx-auto"></div>
               <h3 className='fontSecondary text-center my-3'>JavaScript Programming</h3>
             </div>
-          </div>
-
-          <div className='d-flex row justify-content-around mb-md-4'>
             <div className='skillBox rounded col-md-4 col-11 py-2 mb-2'>
               <img src='/certImages/HTML CSS Certification.jpg' />
               <div className="divider mt-4 mb-2 w-50 mx-auto"></div>
