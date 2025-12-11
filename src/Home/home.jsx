@@ -103,11 +103,11 @@ const TEXTS = ['Computer Science Student', 'Trained IT Professional', 'Future So
             </div>
 
             <div className="column">
-              <img src='/certImages/Full-Stack Deployment Certification.jpg' alt='Full-Stack Deployment' />
+              <img src='/certImages/linux.png' alt='Linux Certification' />
             </div>
             
             <div className="column">
-              <img src='/certImages/JavaScript Certification.jpg' alt='JavaScript' />
+              <img src='/certImages/Full-Stack Deployment Certification.jpg' alt='Full-Stack Deployment' />
             </div>
             <a role='button' className="viewProjects button rounded mt-4 py-2 text-center fontSecondary" href='/skills'>View all certifications</a>
           </div>
