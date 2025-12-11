@@ -64,6 +64,14 @@ body {
   text-shadow: -5px 0 #121212;
 }
 
+.javaImg {
+  background-image: url(/skillsImages/java.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+
 .javascriptImg {
   background-image: url(/skillsImages/javascript.png);
   background-size: contain;
